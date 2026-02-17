@@ -154,7 +154,7 @@ result.write.mode("overwrite").parquet(OUTPUT_PATH)
 
 # Capture end time after job completion
 end_time = time.time()
-
+   
 # Print total execution time
 print(f"Naive execution time: {end_time - start_time:.2f} seconds")
 
